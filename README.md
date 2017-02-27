@@ -10,7 +10,7 @@ This repository holds the react front-end of the application
 
 **NOTE:** _This is the a complete overhaul of the final project of [Shaun Lloyd](https://github.com/ShaunLloyd) & [Leo Rossi](https://github.com/rota-rossi) who were two students of <a href="https://www.lighthouselabs.ca/">Lighthouse Labs</a> in Toronto, ON in the July 18th 2016 cohort._
 
-### Setup
+## Setup
 
 - Clone or download the project and cd into the directory
 
@@ -25,3 +25,9 @@ This repository holds the react front-end of the application
 ```
 
 - Go to `localhost:3000` in your browser
+
+## Contributing
+
+We prefer to use a fork-and-branch strategy. This means there should be two remotes in your local copy. `origin` should point to your personal fork, while `upstream` should point to this main repository
+
+For more information on contributing to this project, check out our [`CONTRIBUTING.md`](https://github.com/ShaunLloyd/pearedit-ui/blob/master/.github/CONTRIBUTING.md) file.
