@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  overflow: hidden;
+}
+
+.message-list {
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #F5F5F5;
+}
+
+.message-content {
+  white-space: pre-wrap !important;
+  height: auto !important;
+}
+
+.message-form {
+  flex: 1 0 auto;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  border-top: 1px solid #E0E0E0;
+}
+
+p.prompt {
+  color: #BDBDBD;
+  text-align: right;
+  margin: 5px 0;
+}
+
+.message-form-container {
+  padding: 5px 10px;
+}
